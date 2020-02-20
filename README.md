@@ -13,7 +13,7 @@ After adding carbonier bot in slack channel send `code block` carboniter will se
 
 ![](example.png)
 
-### For Developers 
+## For Developers 
 
 ### Clone source code
 
@@ -76,5 +76,6 @@ $ heroku open
 
 ### License
 
-**[This project is licensed under the terms of the MIT license.](http://license-me.herokuapp.com)**
- -- [_Need your own? There's a button for that :wink:_](https://github.com/mattcreager/license)
+### License
+
+Carboniter is [MIT licensed](./LICENSE).
