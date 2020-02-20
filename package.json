@@ -1,0 +1,40 @@
+{
+  "name": "starbot",
+  "description": "Starbot is GitHub's trending open-source page, reincarnated as a Slack bot",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ./src",
+    "notify": "node ./src/tasks/notify",
+    "test": "standard"
+  },
+  "author": {
+    "email": "creager@heroku.com",
+    "name": "Matthew Creager",
+    "url": "https://twitter.com/matt_creager"
+  },
+  "bugs": {
+    "url": "https://github.com/mattcreager"
+  },
+  "dependencies": {
+    "@slack/events-api": "^2.3.1",
+    "@slack/web-api": "^5.7.0",
+    "body-parser": "^1.15.0",
+    "botkit": "0.0.7",
+    "dotenv": "^2.0.0",
+    "express": "^4.13.4",
+    "express-http-proxy": "^0.6.0",
+    "lodash": "^4.6.1",
+    "puppeteer": "^2.1.1"
+  },
+  "keywords": [
+    "slack",
+    "slack-bot",
+    "bot",
+    "heroku"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": "10.17.0"
+  }
+}
